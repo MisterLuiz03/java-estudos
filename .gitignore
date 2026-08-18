@@ -16,3 +16,17 @@
 # Sistema
 .DS_Store
 Thumbs.db
+/operador ternario/nbproject/private/
+/operador ternario/build/
+/funcoes/nbproject/private/
+/funcoes/build/
+/areaTriangulo/nbproject/private/
+/areaTriangulo/build/
+/estoquePrograma/nbproject/private/
+/Program/nbproject/private/
+/Program/build/
+# NetBeans
+**/nbproject/private/
+**/nbproject/private/**
+**/build/
+**/dist/
