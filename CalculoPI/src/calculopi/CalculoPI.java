@@ -13,17 +13,17 @@ public class CalculoPI {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Calcultator calc = new Calcultator();
+        
         
         double raio = sc.nextDouble();
 
-        double c = calc.circuferencia(raio);
+        double c = Calcultator.circuferencia(raio);
 
-        double v = calc.volume(raio);
+        double v = Calcultator.volume(raio);
 
         System.out.printf("Circuferencia: %.2f\n", c);
         System.out.printf("Volume: %.2f\n", v);
-        System.out.printf("PI valor: %.2f\n", calc.PI);
+        System.out.printf("PI valor: %.2f\n", Calcultator.PI);
 
         sc.close();
 
