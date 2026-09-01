@@ -7,7 +7,10 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        
+        /*
+        LUIZ HENRIQUE LEMOS OLIVEIRA
+        THIAGO ALMEIDA SOUZA
+         */
         Locale.setDefault(Locale.US);
 
         Scanner sc = new Scanner(System.in);
